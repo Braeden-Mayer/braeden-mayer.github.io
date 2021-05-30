@@ -31,6 +31,10 @@ a[href^="mailto:"] {
   color: #636363;
 }
 
+a[href^="mailto:"]:hover {
+  color: #636363;
+}
+
 a:hover {
     color: #7f8c8d;
 }
@@ -59,6 +63,10 @@ footer {
   }
 
   a[href^="mailto:"] {
+    color: #b3b3b3;
+  }
+
+  a[href^="mailto:"]:hover {
     color: #b3b3b3;
   }
 
