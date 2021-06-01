@@ -27,16 +27,16 @@ a {
   font-weight: 450;
 }
 
+a.ndp {
+  color: #F58220;
+}
+
 a[href^="mailto:"] {
   color: #636363;
 }
 
 a[href^="mailto:"]:hover {
-  color: #636363;
-}
-
-a:hover {
-    color: #7f8c8d;
+  color: #a1a1a1;
 }
 
 a.progressive {
@@ -45,6 +45,26 @@ a.progressive {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+a.ubc {
+  color: #0055B7;
+}
+
+a.polisci {
+  color: #017257;
+}
+
+a.polisci:hover {
+  color: #009673;
+}
+
+a.twitter {
+  color: #1DA1F2;
+}
+
+a.twitter:hover {
+  color: #3db5ff;
 }
 
 footer {
@@ -62,12 +82,36 @@ footer {
     color: #ffffff;
   }
 
+  a.ndp {
+    color: #FDB913;
+  }
+
+  a.ubc {
+    color: #00A7E1;
+  }
+
+  a.polisci {
+    color: #00ba8e;
+  }
+
+  a.polisci:hover {
+    color: #00d4a2;
+  }
+
   a[href^="mailto:"] {
     color: #b3b3b3;
   }
 
   a[href^="mailto:"]:hover {
-    color: #b3b3b3;
+    color: #d9d9d9;
+  }
+
+  a.twitter {
+    color: #1DA1F2;
+  }
+
+  a.twitter:hover {
+    color: #63c3ff;
   }
 
   footer {
